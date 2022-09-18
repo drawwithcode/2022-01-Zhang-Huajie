@@ -4,17 +4,26 @@ function setup() {
 }
 
 function draw() {
-  background("yellow");
+   background("smokewhite");
   stroke("black");
   strokeWeight(15);
+  let myColor = lerpColor(color("whitesmoke"), color("blue"), frameCount / 240);
+  let myColor1 = lerpColor(color("whitesmoke"), color("red"), frameCount / 240);
+  let myColor2 = lerpColor(
+    color("whitesmoke"),
+    color("yellow"),
+    frameCount / 240
+  );
 
+  fill(myColor2);
+  circle(900, 400, 2100);
   fill("whitesmoke");
   circle(900, 400, 1900);
-  fill("blue");
+  fill(myColor);
   circle(900, 400, 1700);
-  fill("red");
+  fill(myColor1);
   circle(900, 400, 1500);
-  fill("yellow");
+  fill(myColor2);
   circle(900, 400, 1300);
   fill("whitesmoke");
   circle(900, 400, 1100);
@@ -24,31 +33,31 @@ function draw() {
 
   fill("whitesmoke");
   circle(1400, 10, 300);
-  fill("blue");
+  fill(myColor);
   circle(1400, 10, 200);
-  fill("red");
+  fill(myColor1);
   circle(1400, 10, 100);
-  fill("yellow");
+  fill(myColor2);
   circle(1400, 10, 20);
 
   fill("whitesmoke");
   circle(100, 650, 400);
-  fill("blue");
+  fill(myColor);
   circle(100, 650, 300);
-  fill("red");
+  fill(myColor1);
   circle(100, 650, 200);
-  fill("yellow");
+  fill(myColor2);
   circle(100, 650, 100);
   fill("whitesmoke");
   circle(100, 650, 30);
 
   fill("whitesmoke");
   circle(400, 100, 550);
-  fill("blue");
+  fill(myColor);
   circle(400, 100, 425);
-  fill("red");
+  fill(myColor1);
   circle(400, 100, 300);
-  fill("yellow");
+  fill(myColor2);
   circle(400, 100, 175);
   fill("whitesmoke");
   circle(400, 100, 75);
@@ -56,11 +65,11 @@ function draw() {
   stroke("black");
   strokeWeight(15);
 
-  fill("blue");
+  fill(myColor);
   circle(900, 400, 900);
-  fill("red");
+  fill(myColor1);
   circle(900, 400, 675);
-  fill("yellow");
+  fill(myColor2);
   circle(900, 400, 450);
   fill("whitesmoke");
   circle(900, 400, 250);
