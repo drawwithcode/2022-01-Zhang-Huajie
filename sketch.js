@@ -4,14 +4,12 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  // put setup code here
   angleMode(DEGREES);
   background("whitesmoke");
 }
 
 function draw() {
-  // put drawing code here
-   stroke("black");
+  stroke("black");
   strokeWeight(15);
   fill("blue");
   circle(245, 125, 650);
