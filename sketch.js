@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  translate(-5, -7.5);
+  translate(-10, -10);
   frameRate(10);
   const inc = 30;
   for (let y = inc; y <= height; y += inc) {
