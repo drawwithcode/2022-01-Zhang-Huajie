@@ -9,7 +9,7 @@ function setup() {
 function draw() {
   translate(-5, -7.5);
   frameRate(10);
-  const inc =30;
+  const inc = 30;
   for (let y = inc; y <= height; y += inc) {
     for (let x = inc; x <= width; x += inc) {
       const diameter = random(dr);
