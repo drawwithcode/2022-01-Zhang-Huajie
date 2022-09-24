@@ -1,4 +1,4 @@
-const dr = [10, 20, 40];
+const dr = [10, 20, 30];
 dr.push(10);
 function setup() {
   createCanvas(windowWidth, windowHeight);
