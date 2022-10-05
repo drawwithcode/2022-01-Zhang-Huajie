@@ -2,7 +2,7 @@ const dr = [20, 30, 40];
 dr.push(10);
 let noiseScale = 0.015;
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(800,600);
   noiseSeed(80);
   stroke(0);
   background("black");
