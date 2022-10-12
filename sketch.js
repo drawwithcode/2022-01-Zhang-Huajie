@@ -35,4 +35,5 @@ function draw() {
       ellipse(random(x), random(y), diameter);
     }
   }
+  pop();
 }
