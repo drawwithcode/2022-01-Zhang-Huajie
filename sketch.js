@@ -351,7 +351,7 @@ Node.prototype.update = function () {
 
 function setup() {
   frameRate(FPS);
-  createCanvas(600, 600);
+  createCanvas(windowWidth,windowHeight);
   noCursor();
   strokeCap(PROJECT);
   //======================
